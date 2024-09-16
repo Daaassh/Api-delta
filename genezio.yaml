@@ -1,0 +1,9 @@
+frontend:
+    path: ./
+    publish: ""
+    scripts:
+        build: python api.py
+        deploy: pip install requests
+name: Api-delta
+region: us-east-1
+yamlVersion: 2
