@@ -3,6 +3,7 @@ frontend:
     publish: ""
     scripts:
         build: ""
+        install: pip install requests
         deploy: python api.py
 name: Api-delta
 region: us-east-1
