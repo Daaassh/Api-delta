@@ -3,8 +3,8 @@ frontend:
     publish: ""
     scripts:
         build: ""
-        install: pip install requests
         deploy: python api.py
+        install: pip install requests
 name: Api-delta
 region: us-east-1
 yamlVersion: 2
